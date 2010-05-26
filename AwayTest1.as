@@ -21,7 +21,7 @@
 		{
 			removeEventListener(Event.ADDED_TO_STAGE, init);
 
-			
+			trace("test");
 
 			addEventListener(Event.ENTER_FRAME, onEnter);
 			stage.addEventListener(MouseEvent.CLICK, onClick);
